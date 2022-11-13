@@ -7,4 +7,4 @@ awesome project.
 
 this should work now.
 
-added permission to copy on jenkins console
+change file owner permission to jenkins on the server.
