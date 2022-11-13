@@ -2,4 +2,4 @@
 my new project on ansible
 
 i currently working onn copying artifact
-it is working fine now.
+it is working perfectly.
