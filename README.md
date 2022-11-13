@@ -6,3 +6,5 @@ it is working perfectly, excellent!!! bravo.
 awesome project.
 
 this should work now.
+
+added permission to copy on jenkins console
