@@ -7,4 +7,4 @@ awesome project.
 
 this should work now.
 
-change file owner permission to jenkins for target folder and /var/lib folders on the server.
+change file owner permission to jenkins for /var/lib folders on the server.
