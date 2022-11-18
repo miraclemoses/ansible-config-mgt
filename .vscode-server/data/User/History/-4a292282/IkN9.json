@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "54.162.41.180": "linux"
+    },
+    "terminal.external.linuxExec": "python3"
+}
