@@ -66,3 +66,6 @@ apache_packages_state: present
     web1: "172.31.95.184"
     web2: "172.31.86.63"
 
+# defaults file alpacheRole
+enable_apache_lb: false
+load_balancer_is_required: false
