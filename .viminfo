@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1668773230,,"wq"
+|2,0,1668779383,,"wq"
 :q!
-|2,0,1668772957,,"q!"
+|2,0,1668778816,,"q!"
+:q
+|2,0,1668775164,,"q"
 
 # Search String History (newest to oldest):
 
@@ -25,56 +27,356 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	   servers:
+|3,1,1,1,1,0,1668778148,"   servers:"
+"2	LINE	0
+	   keepalive: 16 # optional
+|3,0,2,1,1,0,1668778061,"   keepalive: 16 # optional"
+"3	LINE	0
+	   strategy: "ip_hash" # "least_conn", etc.
+|3,0,3,1,1,0,1668778059,"   strategy: \"ip_hash\" # \"least_conn\", etc."
 
 # File marks:
-'0  120  12  ~/.ansible/roles/mysql/defaults/main.yml
-|4,48,120,12,1668773230,"~/.ansible/roles/mysql/defaults/main.yml"
-'1  76  0  ~/.ansible/roles/mysql/README.md
-|4,49,76,0,1668772957,"~/.ansible/roles/mysql/README.md"
-'2  1  0  ~/README.md
-|4,50,1,0,1668772217,"~/README.md"
-'3  1  0  /etc/sysconfig/jenkins
-|4,51,1,0,1668362559,"/etc/sysconfig/jenkins"
+'0  24  3  ~/.ansible/roles/apache/defaults/main.yml
+|4,48,24,3,1668779383,"~/.ansible/roles/apache/defaults/main.yml"
+'1  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,49,1,0,1668779087,"~/.ansible/roles/apache/tasks/main.yml"
+'2  64  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,50,64,11,1668778816,"~/.ansible/roles/apache/defaults/main.yml"
+'3  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,51,63,11,1668778816,"~/.ansible/roles/apache/defaults/main.yml"
+'4  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,52,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+'5  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,53,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+'6  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,54,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+'7  64  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,55,64,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+'8  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,56,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+'9  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,57,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
 
 # Jumplist (newest first):
--'  120  12  ~/.ansible/roles/mysql/defaults/main.yml
-|4,39,120,12,1668773230,"~/.ansible/roles/mysql/defaults/main.yml"
--'  1  0  ~/.ansible/roles/mysql/defaults/main.yml
-|4,39,1,0,1668772991,"~/.ansible/roles/mysql/defaults/main.yml"
--'  76  0  ~/.ansible/roles/mysql/README.md
-|4,39,76,0,1668772957,"~/.ansible/roles/mysql/README.md"
--'  76  0  ~/.ansible/roles/mysql/README.md
-|4,39,76,0,1668772957,"~/.ansible/roles/mysql/README.md"
--'  1  0  ~/.ansible/roles/mysql/README.md
-|4,39,1,0,1668772589,"~/.ansible/roles/mysql/README.md"
--'  1  0  ~/.ansible/roles/mysql/README.md
-|4,39,1,0,1668772589,"~/.ansible/roles/mysql/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1668772217,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1668772217,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1668772217,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1668772217,"~/README.md"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
--'  1  0  /etc/sysconfig/jenkins
-|4,39,1,0,1668362559,"/etc/sysconfig/jenkins"
+-'  24  3  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,24,3,1668779383,"~/.ansible/roles/apache/defaults/main.yml"
+-'  64  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,64,11,1668779118,"~/.ansible/roles/apache/defaults/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668779087,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668779087,"~/.ansible/roles/apache/tasks/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778816,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778816,"~/.ansible/roles/apache/defaults/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+|4,39,1,0,1668778638,"~/.ansible/roles/apache/tasks/configure-RedHat.yml"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/templates/vhosts.conf.j2
+|4,39,1,0,1668778575,"~/.ansible/roles/apache/templates/vhosts.conf.j2"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  1  0  ~/.ansible/roles/apache/tasks/main.yml
+|4,39,1,0,1668778509,"~/.ansible/roles/apache/tasks/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  63  11  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,63,11,1668778422,"~/.ansible/roles/apache/defaults/main.yml"
+-'  62  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,62,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  61  0  ~/.ansible/roles/apache/defaults/main.yml
+|4,39,61,0,1668777974,"~/.ansible/roles/apache/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
+-'  72  1  ~/.ansible/roles/nginx/defaults/main.yml
+|4,39,72,1,1668777935,"~/.ansible/roles/nginx/defaults/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.ansible/roles/apache/defaults/main.yml
+	*	1668779381	0
+	"	24	3
+	^	24	4
+	.	24	3
+	+	29	45
+	+	31	0
+	+	30	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	34	0
+	+	33	0
+	+	32	0
+	+	31	0
+	+	30	0
+	+	67	24
+	+	66	0
+	+	65	2
+	+	66	5
+	+	65	9
+	+	66	8
+	+	65	3
+	+	66	3
+	+	67	0
+	+	66	0
+	+	67	22
+	+	66	23
+	+	68	0
+	+	64	11
+	+	65	15
+	+	24	3
+
+> ~/.ansible/roles/apache/tasks/main.yml
+	*	1668779083	0
+	"	1	0
+
+> ~/.ansible/roles/apache/tasks/configure-RedHat.yml
+	*	1668778636	0
+	"	1	0
+
+> ~/.ansible/roles/apache/templates/vhosts.conf.j2
+	*	1668778572	0
+	"	1	0
+
+> ~/.ansible/roles/nginx/defaults/main.yml
+	*	1668777923	0
+	"	72	1
+	^	72	2
+	.	72	3
+	+	82	0
+	+	83	0
+	+	84	0
+	+	85	0
+	+	86	0
+	+	87	0
+	+	87	30
+	+	86	19
+	+	87	19
+	+	86	7
+	+	87	29
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	78	0
+	+	79	0
+	+	72	3
+
+> ~/.ansible/roles/nginx/templates/nginx.conf.j2
+	*	1668776855	0
+	"	1	18
+	^	1	19
+	.	1	0
+	+	1	0
+
+> ~/.ansible/roles/nginx/tasks/main.yml
+	*	1668776683	0
+	"	13	36
+	^	13	37
+	.	13	37
+	+	36	0
+	+	35	13
+	+	48	0
+	+	47	0
+	+	46	13
+	+	13	37
+
+> ~/.bashrc
+	*	1668773993	0
+	"	91	7
+	^	91	8
+	.	91	8
+	+	91	112
+	+	92	0
+	+	91	5
+	+	91	124
+	+	91	8
 
 > ~/.ansible/roles/mysql/defaults/main.yml
 	*	1668773228	0
